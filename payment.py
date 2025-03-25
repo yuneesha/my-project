@@ -13,8 +13,8 @@ def calculate_price(order):
         return 0
 
 def process_payment(total_price):
-    print(f"The total price is: ${total_price}")
-    payment = float(input("Enter payment amount: $"))
+    print(f"The total price is: LKR{total_price}")
+    payment = float(input("Enter payment amount: LKR"))
     
     if payment >= total_price:
         print("Payment successful! Enjoy your food.")
