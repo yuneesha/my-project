@@ -1,9 +1,9 @@
 
 def calculate_price(order):
     menu_prices = {
-        "Burger": 5,
-        "Pizza": 8,
-        "Pasta": 7
+        "Burger": 1780 LKR,
+        "Pizza": 2800 LKR,
+        "Pasta": 1450 LKR
     }
     
     if order in menu_prices:
