@@ -2,9 +2,9 @@
 def display_menu():
     print("Welcome to the Food Ordering System!")
     print("Menu:")
-    print("1. Burger - $5")
-    print("2. Pizza - $8")
-    print("3. Pasta - $7")
+    print("1. Burger - 1780 LKR")
+    print("2. Pizza - 2800 LKR")
+    print("3. Pasta - 1450 LKR")
 
 def place_order():
     display_menu()
